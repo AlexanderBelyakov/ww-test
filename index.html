@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Rick and Morty</title>
+</head>
+<body class="page">
+
+  <header class="header">
+    rick and morty characters
+  </header>
+
+  <main class="content">
+    <form class="content__form">
+      <input
+      class="content__input"
+      type="search"
+      placeholder="Search a character">
+      <button class="content__button" type="submit">Search</button>
+    </form>
+    <div class="content__container">
+      
+    </div>
+  </main>
+
+  <template id="card-template">
+    <div class="card">
+      <p class="card__name"></p>
+      <img class="card__image" src="" alt="">
+      <div class="card__field">
+        <p class="card__key">Specie:&nbsp</p>
+        <p class="card__value card__species"></p>
+      </div>
+      <div class="card__field">
+        <p class="card__key">Status:&nbsp</p>
+        <p class="card__value card__status"></p>
+      </div>
+      <div class="card__field">
+        <p class="card__key">Location:&nbsp</p>
+        <p class="card__value card__location"></p>
+      </div>
+    </div>
+  </template>
+
+  <script type="module" src="./pages/index.js"></script>
+</body>
+</html>

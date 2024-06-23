@@ -1,0 +1,10 @@
+.content__button {
+  background-color: white;
+  border: none;
+  height: 35px;
+  transition: 0.2s linear;
+}
+
+.content__button:hover {
+  box-shadow: 0 5px 5px rgb(250, 130, 130);
+}

@@ -1,0 +1,8 @@
+.content__container {
+  margin: 20px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 50px;
+  justify-content: center;
+}

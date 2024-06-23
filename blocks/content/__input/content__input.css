@@ -1,0 +1,11 @@
+.content__input {
+  height: 35px;
+  border: none;
+
+  border-bottom: 1px solid rgb(34, 255, 226);
+}
+
+.content__input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(106, 255, 47);
+}
